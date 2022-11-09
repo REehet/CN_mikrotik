@@ -11,6 +11,7 @@
 :do { add address=62.3.6.0/24 list=CN_backup } on-error={}
 :do { add address=65.111.0.0/19 list=CN_backup } on-error={}
 :do { add address=85.209.40.0/22 list=CN_backup } on-error={}
+:do { add address=91.233.17.0/24 list=CN_backup } on-error={}
 :do { add address=104.167.16.0/20 list=CN_backup } on-error={}
 :do { add address=104.207.32.0/19 list=CN_backup } on-error={}
 :do { add address=146.19.100.0/24 list=CN_backup } on-error={}
@@ -2226,6 +2227,7 @@
 :do { add address=103.31.168.0/22 list=CN_backup } on-error={}
 :do { add address=103.31.200.0/22 list=CN_backup } on-error={}
 :do { add address=103.31.236.0/22 list=CN_backup } on-error={}
+:do { add address=103.31.242.0/23 list=CN_backup } on-error={}
 :do { add address=103.32.0.0/22 list=CN_backup } on-error={}
 :do { add address=103.32.4.0/22 list=CN_backup } on-error={}
 :do { add address=103.32.8.0/22 list=CN_backup } on-error={}
