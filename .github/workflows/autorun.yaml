@@ -21,7 +21,7 @@ jobs:
         run: pip install requests
       
       - name: Run codes
-        run: python CN_backup.py
+        run: python CN_Gen.py
       
       - name: commit files
         run: |
