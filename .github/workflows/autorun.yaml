@@ -1,4 +1,4 @@
-name: CN_backup
+name: CN_gen
 
 on:
   schedule:
