@@ -11,6 +11,11 @@ lines = r.splitlines()
 for line in lines:
     output += ":do { add address=" + line + " list=CN } on-error={}\n"
 
+output += ":do { add address= 192.168.0.0/16 list=CN } on-error={}\n"
+output += ":do { add address= 10.0.0.0/8 list=CN } on-error={}\n"
+output += ":do { add address= 172.16.0.0/12 list=CN } on-error={}\n"
+output += ":do { add address= 100.64.0.0/10 list=CN } on-error={}\n"
+    
 output += "/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=CN]\n/ipv6 firewall address-list\n"
     
 lines2 = r2.splitlines()
