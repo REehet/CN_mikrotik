@@ -882,7 +882,6 @@
 :do { add address=101.37.0.0/16 list=CN } on-error={}
 :do { add address=101.38.0.0/15 list=CN } on-error={}
 :do { add address=101.40.0.0/14 list=CN } on-error={}
-:do { add address=101.47.0.0/16 list=CN } on-error={}
 :do { add address=101.48.0.0/15 list=CN } on-error={}
 :do { add address=101.50.8.0/21 list=CN } on-error={}
 :do { add address=101.50.56.0/22 list=CN } on-error={}
