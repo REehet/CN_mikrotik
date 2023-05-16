@@ -5490,7 +5490,6 @@
 :do { add address=2001:df1:6180::/48 list=CN } on-error={}
 :do { add address=2001:df1:61c0::/48 list=CN } on-error={}
 :do { add address=2001:df1:6b80::/48 list=CN } on-error={}
-:do { add address=2001:df1:8b00::/48 list=CN } on-error={}
 :do { add address=2001:df1:a100::/48 list=CN } on-error={}
 :do { add address=2001:df1:bd80::/48 list=CN } on-error={}
 :do { add address=2001:df1:c900::/48 list=CN } on-error={}
