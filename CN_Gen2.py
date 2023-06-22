@@ -3,9 +3,6 @@ import requests
 url = "https://ispip.clang.cn/all_cn_cidr.txt"
 r = requests.get(url).text
 
-# with open("routes4.conf") as f:
-#     lines = f.read().splitlines()
-
 lines = r.splitlines()
 
 output = "/log info \"Loading foreign address list\"\n/ip route remove [find comment=\"foreign\"]\n/ip route\n"
