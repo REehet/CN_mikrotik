@@ -5,15 +5,15 @@ r = requests.get(url).text
 
 lines = r.splitlines()
 
-output = "/log info \"Loading foreign address list\"\n/ip route remove [find comment=\"foreign\"]\n/ip route\n"
+output = "/log info \"Loading CN address list\"\n/ip route remove [find comment=\"CN\"]\n/ip route\n"
 
 for line in lines:
     # address = line.split(" ")[1]
     address = line
-    output += ":do { add dst-address=" + address + " gateway=10.10.70.1 distance=10 comment=\"foreign\" } on-error={}\n"
+    output += ":do { add dst-address=" + address + " gateway=192.168.50.1 distance=10 comment=\"CN\" } on-error={}\n"
 
 with open('foreign_route', 'w') as file:
     file.write(output)
 
 with open('foreign_route_backup', 'w') as file:
-    file.write(output.replace('foreign', 'foreign_backup').replace('distance=10', 'distance=20'))
+    file.write(output.replace('CN', 'CN_backup').replace('distance=10', 'distance=20'))
