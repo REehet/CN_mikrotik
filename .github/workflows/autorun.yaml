@@ -22,6 +22,7 @@ jobs:
       
       - name: Run codes
         run: python CN_Gen.py
+             python CN_Gen2.py
       
       - name: commit files
         run: |
