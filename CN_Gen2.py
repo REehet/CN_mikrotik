@@ -12,8 +12,8 @@ for line in lines:
     address = line
     output += ":do { add dst-address=" + address + " gateway=192.168.50.1 distance=10 comment=\"CN\" } on-error={}\n"
 
-with open('foreign_route', 'w') as file:
+with open('CN_route', 'w') as file:
     file.write(output)
 
-with open('foreign_route_backup', 'w') as file:
+with open('CN_route_backup', 'w') as file:
     file.write(output.replace('CN', 'CN_backup').replace('distance=10', 'distance=20'))
