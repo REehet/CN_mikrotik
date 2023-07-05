@@ -2692,6 +2692,7 @@
 :do { add dst-address=103.231.244.0/22 gateway=192.168.50.1 distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=103.232.4.0/22 gateway=192.168.50.1 distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=103.232.144.0/22 gateway=192.168.50.1 distance=20 comment="CN_backup" } on-error={}
+:do { add dst-address=103.232.166.0/23 gateway=192.168.50.1 distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=103.232.188.0/22 gateway=192.168.50.1 distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=103.232.212.0/22 gateway=192.168.50.1 distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=103.233.4.0/22 gateway=192.168.50.1 distance=20 comment="CN_backup" } on-error={}
