@@ -2748,6 +2748,7 @@
 :do { add dst-address=103.238.132.0/22 gateway=192.168.50.1 distance=10 comment="CN" } on-error={}
 :do { add dst-address=103.238.140.0/22 gateway=192.168.50.1 distance=10 comment="CN" } on-error={}
 :do { add dst-address=103.238.144.0/22 gateway=192.168.50.1 distance=10 comment="CN" } on-error={}
+:do { add dst-address=103.238.152.0/23 gateway=192.168.50.1 distance=10 comment="CN" } on-error={}
 :do { add dst-address=103.238.160.0/19 gateway=192.168.50.1 distance=10 comment="CN" } on-error={}
 :do { add dst-address=103.238.196.0/22 gateway=192.168.50.1 distance=10 comment="CN" } on-error={}
 :do { add dst-address=103.238.204.0/22 gateway=192.168.50.1 distance=10 comment="CN" } on-error={}
