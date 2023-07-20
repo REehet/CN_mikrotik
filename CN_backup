@@ -6086,7 +6086,6 @@
 :do { add address=2402:2e80::/32 list=CN_backup } on-error={}
 :do { add address=2402:2f40::/32 list=CN_backup } on-error={}
 :do { add address=2402:3040::/32 list=CN_backup } on-error={}
-:do { add address=2402:3080::/32 list=CN_backup } on-error={}
 :do { add address=2402:3140::/32 list=CN_backup } on-error={}
 :do { add address=2402:3180::/32 list=CN_backup } on-error={}
 :do { add address=2402:31c0::/32 list=CN_backup } on-error={}
