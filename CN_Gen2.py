@@ -10,7 +10,7 @@ output = "/log info \"Loading CN address list\"\n/ip route remove [find comment=
 for line in lines:
     # address = line.split(" ")[1]
     address = line
-    output += ":do { add dst-address=" + address + " gateway=192.168.50.1 distance=10 comment=\"CN\" } on-error={}\n"
+    output += ":do { add dst-address=" + address + " gateway=10.10.70.1 distance=10 comment=\"CN\" } on-error={}\n"
 
 with open('CN_route', 'w') as file:
     file.write(output)
