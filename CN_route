@@ -4251,6 +4251,7 @@
 :do { add dst-address=202.143.104.0/22 gateway=pppoe-CT distance=10 comment="CN" } on-error={}
 :do { add dst-address=202.144.196.0/22 gateway=pppoe-CT distance=10 comment="CN" } on-error={}
 :do { add dst-address=202.146.160.0/20 gateway=pppoe-CT distance=10 comment="CN" } on-error={}
+:do { add dst-address=202.146.184.0/23 gateway=pppoe-CT distance=10 comment="CN" } on-error={}
 :do { add dst-address=202.146.186.0/24 gateway=pppoe-CT distance=10 comment="CN" } on-error={}
 :do { add dst-address=202.146.188.0/22 gateway=pppoe-CT distance=10 comment="CN" } on-error={}
 :do { add dst-address=202.146.196.0/22 gateway=pppoe-CT distance=10 comment="CN" } on-error={}
