@@ -127,6 +127,7 @@
 :do { add dst-address=36.40.0.0/13 gateway=pppoe-CT distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=36.48.0.0/15 gateway=pppoe-CT distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=36.50.226.0/23 gateway=pppoe-CT distance=20 comment="CN_backup" } on-error={}
+:do { add dst-address=36.50.254.0/23 gateway=pppoe-CT distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=36.51.0.0/16 gateway=pppoe-CT distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=36.56.0.0/13 gateway=pppoe-CT distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=36.96.0.0/11 gateway=pppoe-CT distance=20 comment="CN_backup" } on-error={}
