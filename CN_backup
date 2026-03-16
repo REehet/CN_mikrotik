@@ -498,7 +498,6 @@
 :do { add address=52.82.136.0/24 list=CN_backup } on-error={}
 :do { add address=52.82.144.0/23 list=CN_backup } on-error={}
 :do { add address=52.82.148.0/22 list=CN_backup } on-error={}
-:do { add address=52.82.153.0/24 list=CN_backup } on-error={}
 :do { add address=52.82.160.0/21 list=CN_backup } on-error={}
 :do { add address=52.82.170.0/23 list=CN_backup } on-error={}
 :do { add address=52.82.172.0/22 list=CN_backup } on-error={}
@@ -5458,8 +5457,8 @@
 :do { add address=2a0e:aa07:e21c::/47 list=CN_backup } on-error={}
 :do { add address=2a0e:aa07:e220::/44 list=CN_backup } on-error={}
 :do { add address=2a0e:aa07:e280::/45 list=CN_backup } on-error={}
-:do { add address=2a0e:aa07:e288::/46 list=CN_backup } on-error={}
-:do { add address=2a0e:aa07:e28c::/47 list=CN_backup } on-error={}
+:do { add address=2a0e:aa07:e288::/47 list=CN_backup } on-error={}
+:do { add address=2a0e:aa07:e28a::/48 list=CN_backup } on-error={}
 :do { add address=2a0e:aa07:e28e::/48 list=CN_backup } on-error={}
 :do { add address=2a0e:aa07:f0d0::/46 list=CN_backup } on-error={}
 :do { add address=2a0e:aa07:f0d4::/47 list=CN_backup } on-error={}
