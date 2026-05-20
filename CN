@@ -5635,6 +5635,7 @@
 :do { add address=2a06:3600:fc00::/38 list=CN } on-error={}
 :do { add address=2a06:3605::/32 list=CN } on-error={}
 :do { add address=2a06:3606::/31 list=CN } on-error={}
+:do { add address=2a06:9801:2b3::/48 list=CN } on-error={}
 :do { add address=2a06:a005:260::/43 list=CN } on-error={}
 :do { add address=2a06:a005:280::/43 list=CN } on-error={}
 :do { add address=2a06:a005:2a0::/44 list=CN } on-error={}
