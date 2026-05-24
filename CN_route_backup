@@ -757,6 +757,7 @@
 :do { add dst-address=71.132.0.0/18 gateway=pppoe-CMCC distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=71.136.64.0/18 gateway=pppoe-CMCC distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=71.137.0.0/18 gateway=pppoe-CMCC distance=20 comment="CN_backup" } on-error={}
+:do { add dst-address=74.122.24.0/24 gateway=pppoe-CMCC distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=78.105.182.0/23 gateway=pppoe-CMCC distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=79.133.176.0/24 gateway=pppoe-CMCC distance=20 comment="CN_backup" } on-error={}
 :do { add dst-address=81.68.0.0/14 gateway=pppoe-CMCC distance=20 comment="CN_backup" } on-error={}
