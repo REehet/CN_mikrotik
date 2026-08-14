@@ -2924,6 +2924,7 @@
 :do { add dst-address=155.102.72.0/22 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=155.102.76.0/23 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=155.102.78.0/24 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
+:do { add dst-address=155.102.80.0/24 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=155.102.82.0/23 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=155.102.84.0/23 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=155.102.86.0/24 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
@@ -3720,6 +3721,7 @@
 :do { add dst-address=203.196.0.0/21 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=203.202.236.0/23 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=203.205.88.0/22 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
+:do { add dst-address=203.205.92.0/24 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=203.205.95.0/24 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=203.207.64.0/19 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
 :do { add dst-address=203.207.96.0/21 gateway=pppoe-CMCC distance=10 comment="CN" } on-error={}
